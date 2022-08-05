@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,  sans-serif;
+}
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    padding: 20px;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    margin-top: 3ch;
+    margin-left: 18ch;
+}
+nav li{
+    display: inline-flex;
+    padding: 10px;
+    padding-bottom: 5ch;
+}
+nav li a{
+    text-decoration: none;
+    color: #000;
+}
+nav i{
+    margin-left: 5px;
+}
+nav button{
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 15ch;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+button:hover{
+    color: #f3f;
+    background-color: #fff;
+    transition: 1s;
+}
+header h4{
+    text-align: center;
+    margin-top: 7px;
+    background-color: rgb(12, 12, 137);
+    color: #fff;
+    font-weight: lighter;
+    padding: 10px;
+    padding-right: 30px;
+    font-size: 12px;
+}
+h1{
+    text-align: center;
+    margin-top: 4ch;
+}
+span{
+    color: rgba(23, 23, 186, 0.667);
+}
+.para{
+    text-align: center;
+    margin-top: 2ch;
+    line-height: 20px;
+    font-size: 14px;
+}
+.body{
+    margin-top: 10ch;
+    color: #000;
+    background-color: #000;
+}
+.body h3{
+    float: left;
+    padding-left: 10ch;
+    color: #000;
+    padding-bottom: 15ch;
+    padding-right: 5ch;
+}
+.body p{
+    float: right;
+    line-height: 20px;
+    padding-right: 10ch;
+    color: #000;
+}

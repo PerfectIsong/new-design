@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+      <meta charset="Utf-8">
+      <meta http-equiv="x-UA-compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scales=1.0">
+      <title>Altschool</title>
+      <link rel="stylesheet" href="stylesheet.css">
+      <link rel="stylesheet" href="fonts-6/css/all.css">
+    </head>
+    <body>
+      <header>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Schools<i class="fa-solid fa-angle-down"></i></a></li>
+            <li><a href="#">Tuition</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Our story</a></li>
+            <li><a href="#">Collaborate with us</a></li>
+            <li><a href="#">Careers</a></li>
+            <button>Apply now</button>
+          </ul>
+        </nav>
+        <h4>School of Product is live</h4>
+      </header>
+      <h1>Become a Certified <span>Product</span></h1>
+      <p class="para">Take a look through to see the various ccourses that will be taught when you specialize <br> in any of our certification tracks</p>
+      <section> 
+        <div class="body">
+          <h3>learning Path</h3>
+          <p>Whether you are looking to continue your education, transition into a career in tech or simply <br> boost your career path, we offer certifications across three tracks in Software Programming. <br> 
+            <br>
+          At the initial stage, students who are enrolled in AltSchool Africa will spend some time <br> exploring their interests in software engineering by learning through a unified curriculum <br> before eventually landing on an area of focus. When this happens, learning becomes much <br> more specialised to the selected certification track.</p>  
+        </div>
+      </section>
+      <div style="margin-top:500px ;"></div>
+    <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
+</html>
